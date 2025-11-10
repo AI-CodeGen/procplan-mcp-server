@@ -4,7 +4,7 @@ This repository implements an MCP (Model Context Protocol) server.
 
 ## Important Docs
 - The folder `./docs/` contains all relevant MCP specifications and guidelines.
-- These include `intro.md`, `architecture.md`, `build-server.md`, and others from the official Model Context Protocol website.
+- These include `intro.md`, `mcp-architecture.md`, `build-server.md`, `fastmcp-server-v2.md`, and others from the official Model Context Protocol website.
 
 ## Guidance for Copilot
 When generating or suggesting code:
@@ -14,8 +14,8 @@ When generating or suggesting code:
 - This project uses `uv` as package manager.
 
 ## Example Prompts
-- “Refer to `docs/architecture.md`, to understand basics of MCP server.”
-- “Refer to `docs/build-server.md` to build an mcp server.”
+- “Refer to `docs/mcp-architecture.md`, to understand basics of MCP server.”
+- “Refer to `docs/build-server.md` and `docs/fastmcp-server-v2.md` to build an mcp server.”
 
 # Vibe Coding Mode
 When coding in this project, always:
